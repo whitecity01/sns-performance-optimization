@@ -1,0 +1,42 @@
+.story-layout {
+  display: flex;
+  gap: 16px;
+  padding: 14px 0;
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+
+  .story-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .story-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 68px;
+      cursor: pointer;
+
+      img {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        border: 3px solid #ff006a;
+        object-fit: cover;
+      }
+
+      span {
+        margin-top: 6px;
+        font-size: 12px;
+      }
+
+      &.read img {
+        border-color: #ccc;
+      }
+    }
+  }
+}

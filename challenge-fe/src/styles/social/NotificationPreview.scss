@@ -1,0 +1,20 @@
+.noti-bell {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  .bell-icon {
+    font-size: 26px;
+  }
+
+  .noti-badge {
+    position: relative;
+
+    background: #ff2a55;
+    color: white;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}
